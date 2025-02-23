@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?dfafd59bf142d8b541854ec58e35f2fa") format("truetype"),
+url("./flaticon.woff?dfafd59bf142d8b541854ec58e35f2fa") format("woff"),
+url("./flaticon.woff2?dfafd59bf142d8b541854ec58e35f2fa") format("woff2"),
+url("./flaticon.eot?dfafd59bf142d8b541854ec58e35f2fa#iefix") format("embedded-opentype"),
+url("./flaticon.svg?dfafd59bf142d8b541854ec58e35f2fa#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-bar-chart:before {
+    content: "\f101";
+}
+.flaticon-accuracy:before {
+    content: "\f102";
+}
+.flaticon-mobile:before {
+    content: "\f103";
+}
+.flaticon-phone-call:before {
+    content: "\f104";
+}
+.flaticon-calendar:before {
+    content: "\f105";
+}
+.flaticon-send:before {
+    content: "\f106";
+}
+.flaticon-placeholder:before {
+    content: "\f107";
+}
+.flaticon-web-development:before {
+    content: "\f108";
+}
+.flaticon-medical-report:before {
+    content: "\f109";
+}
