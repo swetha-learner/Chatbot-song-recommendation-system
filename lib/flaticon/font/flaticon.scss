@@ -1,0 +1,61 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?dfafd59bf142d8b541854ec58e35f2fa") format("truetype"),
+url("./flaticon.woff?dfafd59bf142d8b541854ec58e35f2fa") format("woff"),
+url("./flaticon.woff2?dfafd59bf142d8b541854ec58e35f2fa") format("woff2"),
+url("./flaticon.eot?dfafd59bf142d8b541854ec58e35f2fa#iefix") format("embedded-opentype"),
+url("./flaticon.svg?dfafd59bf142d8b541854ec58e35f2fa#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "bar-chart": "\f101",
+    "accuracy": "\f102",
+    "mobile": "\f103",
+    "phone-call": "\f104",
+    "calendar": "\f105",
+    "send": "\f106",
+    "placeholder": "\f107",
+    "web-development": "\f108",
+    "medical-report": "\f109",
+);
+
+.flaticon-bar-chart:before {
+    content: map-get($flaticon-map, "bar-chart");
+}
+.flaticon-accuracy:before {
+    content: map-get($flaticon-map, "accuracy");
+}
+.flaticon-mobile:before {
+    content: map-get($flaticon-map, "mobile");
+}
+.flaticon-phone-call:before {
+    content: map-get($flaticon-map, "phone-call");
+}
+.flaticon-calendar:before {
+    content: map-get($flaticon-map, "calendar");
+}
+.flaticon-send:before {
+    content: map-get($flaticon-map, "send");
+}
+.flaticon-placeholder:before {
+    content: map-get($flaticon-map, "placeholder");
+}
+.flaticon-web-development:before {
+    content: map-get($flaticon-map, "web-development");
+}
+.flaticon-medical-report:before {
+    content: map-get($flaticon-map, "medical-report");
+}
